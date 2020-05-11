@@ -57,9 +57,9 @@ app.get('/', function(req, res) {
 app.get('/seed', function(req, res) {
 
 	var nick = new User({ 
-		name: 'mitchy1', 
-		email: 'nick.mitchell1@beamenergylabs.com',
-		password: 'password',
+		name: 'james', 
+		email: 'jamesdcraine@gmail.com',
+		password: 'password1',
 		admin: true 
 	});
 	nick.save(function(err) {

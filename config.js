@@ -1,4 +1,7 @@
 module.exports = {
 	'secret': 'fitnessfighter',
-	'database': 'mongodb://localhost:27017/fitnessfighterdb'
+	'database': 'mongodb://user1:password1/heroku_jwxwhwc2'
 };
+
+
+
